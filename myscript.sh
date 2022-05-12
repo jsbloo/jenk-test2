@@ -1,6 +1,2 @@
-read INPUT
-
-echo input a file name $INPUT
-
 touch output.txt
-echo $INPUT >> output.txt
+echo $INPUT ${BUILD_NUMBER}>> output.txt
